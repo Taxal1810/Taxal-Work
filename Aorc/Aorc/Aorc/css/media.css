@@ -1,0 +1,945 @@
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1600px) {
+
+    .industries_row_text {
+        padding: 300px 32px 32px;
+    }
+
+    .sticky .lp-hamberg.ms-auto {
+        right: -14% !important;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .footer_top_otr {
+        gap: 236px;
+    }
+
+    .choose_otr {
+        gap: 47px;
+    }
+
+    .industries_row_text {
+        padding: 270px 28px 28px;
+    }
+
+    .industries_row_text h2 {
+        font-size: 28px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 60px;
+    }
+
+    .brand_accrodian {
+        column-gap: 80px;
+        max-width: 600px;
+    }
+
+    .brand_heading {
+        padding-bottom: 52px;
+    }
+
+    .sticky .lp-hamberg.ms-auto {
+        right: -4% !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .header {
+        padding: 16px 0px 30px 0px;
+    }
+
+    .footer_top_otr {
+        gap: 175px;
+    }
+
+
+    .choose_otr {
+        gap: 43px;
+    }
+
+    .choose_otr_box {
+        gap: 22px;
+    }
+
+    .about_text p {
+        font-size: 34px;
+    }
+
+    .industries_row_text {
+        padding: 290px 28px 28px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    .header {
+        padding: 16px 0px 20px 0px;
+    }
+
+    footer.footer {
+        padding: 80px 0 20px;
+    }
+
+    ul.footer_menu {
+        gap: 40px;
+    }
+
+    .footer_top_logos {
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+
+    .choose_otr {
+        gap: 36px;
+    }
+
+    .choose_otr_box {
+        gap: 20px;
+        padding: 20px 30px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 52px;
+    }
+
+    .choose_box_text p {
+        font-size: 17px;
+    }
+
+    .about_text p {
+        font-size: 28px;
+    }
+
+    .build_section,
+    .about_section,
+    .brand_section,
+    .choose_section {
+        padding: 80px 0px;
+    }
+
+    .prev_btn,
+    .next_btn {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .brand_accrodian {
+        column-gap: 60px;
+        max-width: 570px;
+    }
+
+    .brand_img {
+        width: 280px;
+        height: 280px;
+        bottom: -30px;
+        left: 30px;
+    }
+
+    .industries_section {
+        padding: 0 0 50px;
+    }
+
+    .default-button .left:before,
+    .default-button .right:before {
+        width: 48px;
+        height: 48px;
+    }
+
+    .default-button .left,
+    .default-button .right {
+        width: 48px;
+    }
+
+    .default-button {
+        height: 48px;
+    }
+
+    .default-button .plus_icon {
+        padding-left: 4px;
+    }
+
+    .sticky .lp-hamberg.ms-auto {
+        right: 0% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        padding: 0px 35px;
+    }
+
+    .footer_top_left>a {
+        font-size: 32px;
+    }
+
+    .footer_top_otr {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .footer_top_left {
+        width: 100%;
+    }
+
+    ul.footer_menu {
+        gap: 80px;
+    }
+
+    .footer_top_right {
+        flex: unset;
+    }
+
+    .footer_top_logos {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .choose_otr {
+        gap: 31px;
+    }
+
+    .choose_otr_box {
+        gap: 20px;
+        padding: 20px 20px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 44px;
+        line-height: 125.25%;
+    }
+
+    .choose_box_text p {
+        font-size: 16px;
+    }
+
+    .build_content,
+    .about_content,
+    .choose_otr {
+        padding-left: 30px;
+    }
+
+    .about_text p {
+        font-size: 24px;
+        line-height: 170.333%;
+    }
+
+    .build_section,
+    .about_section,
+    .brand_section,
+    .choose_section {
+        padding: 60px 0px;
+    }
+
+    .small_og_title h4 {
+        font-size: 14px;
+        letter-spacing: 8px;
+    }
+
+    .small_og_title {
+        padding-bottom: 26px;
+    }
+
+    .industries_content {
+        padding-left: 30px;
+    }
+
+    /* ==================== mobile menu ==================== */
+
+    .megamenu_icon {
+        display: block;
+    }
+
+    .megamenu_icon {
+        height: auto;
+        cursor: pointer;
+        z-index: 99999;
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-width: 24px;
+    }
+
+    /* .megamenu_icon a { width: 55px; height: 7px; border-radius: 0; display: inline-block; background: #000; position: relative; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -ms-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; } */
+    /* .megamenu_icon a:before { position: absolute; content: ''; width: 54px; height: 7px; border-radius: 0; background: #000; top: -12px; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -ms-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; } */
+    /* .megamenu_icon a:after {position: absolute;content: '';width: 54px;height: 7px;border-radius: 0;background: #000;bottom: -8px;-webkit-transition: all .3s ease 0s;-moz-transition: all .3s ease 0s;-ms-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;} */
+    .menu-open .megamenu_icon a {
+        background: rgb(255 255 255 / 0%);
+    }
+
+    .menu-open .megamenu_icon a:before {
+        transform: rotate(45deg);
+        top: -1px;
+        background: #fff
+    }
+
+    .menu-open .megamenu_icon a:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: #fff
+    }
+
+    /* .megamenu_icon a:before {width: 18px;height: 3px;border-radius: 3px;background: #000000    ;left: 0;top: -8px;} */
+    /* .megamenu_icon a, .megamenu_icon a:after{width: 18px;height: 3px;border-radius: 3px;background: #000000;left: 0;} */
+    .right_menu {
+        position: fixed;
+        top: 0;
+        right: auto;
+        left: 0;
+        bottom: 0;
+        z-index: 999;
+        width: 100%;
+        transition: transform 300ms ease, opacity 300ms ease;
+        transform: translate3d(-100%, 0, 0);
+        transition: transform 300ms ease, opacity 300ms ease;
+        padding: 50px 30px 30px;
+        box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        max-width: 100%;
+        border-radius: 0;
+        background: #2C4087;
+    }
+
+    .menu-open .right_menu {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        backface-visibility: hidden;
+        transition: transform 300ms ease, opacity 300ms ease;
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+    }
+
+    .menu-open {
+        overflow: hidden;
+    }
+
+    .menu-open ul.header_menu {
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 0;
+        width: 100%;
+    }
+
+    .menu-open .right_menu_btn {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .menu-open .header_logo {
+        position: relative;
+        z-index: 9999;
+        justify-content: flex-start;
+    }
+
+    ul.header_menu li {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid rgb(255 255 255 / 30%);
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .menu-open .right_menu ul li a:after {
+        width: 30px;
+    }
+
+    .right_menu {
+        display: none;
+    }
+
+    .right_menu ul.sub_menu {
+        display: none !important;
+        position: unset;
+        width: 100%;
+        background: #290140 !important;
+        opacity: 1;
+        transform: unset;
+        transition: unset;
+        margin-top: 20px;
+        padding: 0 0 0 0;
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+
+    .right_menu ul.sub_menu.submenu-open {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    .menu-open .header_links ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-open .close_icon {
+        display: block !important;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .menu-open .megamenu_icon {
+        display: none;
+    }
+
+    .menu-open .header_links ul li a {
+        color: var(--white);
+    }
+
+    .menu-open .mobile_logo {
+        display: block;
+    }
+
+    .menu-open .deskop_logo {
+        display: none;
+    }
+
+    .accrodian_title p {
+        font-size: 18px;
+    }
+
+    .brand_accrodian {
+        column-gap: 30px;
+        max-width: 490px;
+    }
+
+    .brand_img {
+        width: 250px;
+        height: 250px;
+        bottom: -10px;
+        left: 20px;
+    }
+
+    .brand_heading {
+        padding-bottom: 50px;
+    }
+
+    .industries_row_text {
+        padding: 276px 28px 28px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        padding: 0px 30px;
+    }
+
+    footer.footer {
+        padding: 60px 0 20px;
+    }
+
+    .build_content,
+    .about_content,
+    .choose_otr {
+        padding-left: 25px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 40px;
+        line-height: 138.462%
+    }
+
+    .choose_otr {
+        gap: 33px;
+    }
+
+    .choose_otr_box {
+        gap: 15px;
+        padding: 15px;
+        width: 30%;
+    }
+
+    .choose_otr_title {
+        width: 100%;
+    }
+
+    .brand_accrodian {
+        max-width: 100%;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        row-gap: 0px;
+    }
+
+    .brand_img {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        display: none;
+    }
+
+    a.accrodian_que.active .brand_img {
+        display: block;
+    }
+
+    .accrodian_title {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    a.accrodian_que.active .plus_icon svg {
+        transform: rotate(45deg);
+    }
+
+    .industries_content {
+        padding-left: 25px;
+    }
+
+    .industries_row_text h2 {
+        font-size: 26px;
+    }
+
+    .type-comp2 {
+        font-size: 12px;
+    }
+
+    .default-button .left,
+    .default-button .right {
+        width: 44px;
+    }
+
+    .default-button {
+        height: 44px;
+    }
+
+    .default-button .plus_icon {
+        padding-left: 6px;
+        margin-left: 16px;
+    }
+
+    .default-button .left:before,
+    .default-button .right:before {
+        width: 44px;
+        height: 44px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    footer.footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer_btm_left {
+        gap: 20px;
+    }
+
+    .footer_top_left>a {
+        font-size: 30px;
+    }
+
+    .choose_otr {
+        gap: 30px;
+    }
+
+    .choose_otr_box {
+        width: 47%;
+        padding: 20px;
+    }
+
+    .build_content,
+    .about_content,
+    .choose_otr {
+        padding-left: 20px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 34px;
+    }
+
+    .build_section,
+    .about_section,
+    .brand_section,
+    .choose_section {
+        padding: 50px 0px;
+    }
+
+    .about_text p {
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .about_btn {
+        gap: 56px;
+    }
+
+    .industries_content {
+        padding-left: 20px;
+    }
+
+    .industries_section .small_og_title {
+        padding-bottom: 30px;
+    }
+
+    .industries_swiper_btn {
+        padding-top: 25px;
+    }
+
+    .type-comp2 {
+        font-size: 11px;
+    }
+
+    .default-button .left,
+    .default-button .right {
+        width: 40px;
+    }
+
+    .default-button {
+        height: 40px;
+    }
+
+    .default-button .plus_icon {
+        padding-left: 8px;
+        margin-left: 14px;
+    }
+
+    .default-button .left:before,
+    .default-button .right:before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .default-button .text {
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer_btm_otr {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    ul.footer_menu {
+        gap: 50px;
+    }
+
+    .footer_top_logos {
+        padding-top: 24px;
+    }
+
+    .footer_btm_left {
+        gap: 32px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 32px;
+    }
+
+    .build_content,
+    .about_content,
+    .choose_otr {
+        padding-left: 18px;
+    }
+
+    .choose_otr_box {
+        width: 100%;
+        padding: 24px 40px;
+    }
+
+    .choose_otr {
+        gap: 24px;
+    }
+
+    .build_content_title {
+        padding-bottom: 24px;
+    }
+
+    .small_og_title {
+        padding-bottom: 24px;
+    }
+
+    .choose_box_img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about_btn {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .type-comp2 {
+        font-size: 10px;
+    }
+
+    .default-button .left,
+    .default-button .right {
+        width: 36px;
+    }
+
+    .default-button {
+        height: 36px;
+    }
+
+    .default-button .plus_icon {
+        padding-left: 10px;
+        margin-left: 8px;
+    }
+
+    .default-button .left:before,
+    .default-button .right:before {
+        width: 36px;
+        height: 36px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .container {
+        padding: 0px 20px;
+    }
+
+    .footer_top_left>a {
+        font-size: 26px;
+    }
+
+    .footer_top_logos {
+        gap: 24px;
+    }
+
+    .footer_top_otr {
+        gap: 48px;
+    }
+
+    ul.footer_menu {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+    }
+
+    ul.footer_menu>li {
+        width: 33%;
+    }
+
+    ul.footer_menu>li:last-child ul.footer_sub_menu li {
+        padding: 0;
+    }
+
+    ul.footer_menu>li:last-child ul.footer_sub_menu {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        padding-top: 16px;
+        gap: 16px;
+    }
+
+    ul.footer_menu>li:last-child {
+        width: 80%;
+    }
+
+    ul.footer_menu li a {
+        font-size: 14px;
+    }
+
+    ul.footer_sub_menu li a {
+        font-size: 14px;
+    }
+
+    .footer_btm_left a {
+        font-size: 14px;
+    }
+
+    .footer_copyright_text p {
+        font-size: 14px;
+    }
+
+    .footer_btm_otr {
+        padding-top: 16px;
+    }
+
+    footer.footer {
+        padding: 50px 0 16px;
+    }
+
+    .header_logo {
+        max-width: 126px;
+    }
+
+    .header {
+        padding: 15px 0px 19px 0px;
+    }
+
+    h1,
+    .title_h1 {
+        font-size: 26px;
+    }
+
+    .build_content,
+    .about_content,
+    .choose_otr {
+        padding-left: 16px;
+    }
+
+    .choose_box_img img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .small_og_title h4 {
+        font-size: 12px;
+        letter-spacing: 6px;
+    }
+
+    .brand_img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .industries_row_text h2 {
+        font-size: 24px;
+    }
+
+    a.small_btn {
+        width: 100%;
+        padding: 12px 12px 12px 12px;
+        font-size: 10px;
+        transform: unset;
+        gap: 10px;
+    }
+
+    a.small_btn .right {
+        width: 32px;
+        height: 32px;
+        left: 15px;
+        top: 5px;
+    }
+
+    a.small_btn .left {
+        width: 32px;
+        height: 32px;
+        left: 15px;
+        top: 5px;
+    }
+
+    a.small_btn .right:before {
+        width: 32px;
+        height: 32px;
+    }
+
+    a.small_btn .left:before {
+        width: 32px;
+        height: 32px;
+    }
+
+    a.small_btn .center {
+        height: 32px;
+        top: 5px;
+    }
+
+    a.small_btn:hover .center {
+        width: 92%;
+    }
+
+    .about_btn .small_btn:after {
+        width: 32px;
+        height: 32px;
+    }
+
+    .about_btn {
+        gap: 24px;
+    }
+
+    .accrodian_title {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    .industries_swiper_btn {
+        padding-top: 16px;
+    }
+
+    .about_text p {
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .industries_row_text h2 br {
+        display: none;
+    }
+
+    .brand_heading {
+        padding-bottom: 24px;
+    }
+
+    .brand_heading h4 {
+        padding-bottom: 24px;
+    }
+
+    .about_text {
+        padding-bottom: 24px;
+    }
+
+    .prev_btn,
+    .next_btn {
+        width: 48px;
+        height: 48px;
+        padding: 10px;
+    }
+
+    .industries_section .small_og_title {
+        padding-bottom: 24px;
+    }
+
+    .industries_content {
+        padding-bottom: 24px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+
+    ul.footer_menu>li {
+        width: 37%;
+    }
+
+    .industries_swiper {
+        padding-right: 20px !important;
+    }
+
+    .about_text p {
+        font-size: 18px;
+        line-height: 155%;
+    }
+
+    .default-button .plus_icon {
+        padding-left: 0px;
+        margin-left: 4px;
+    }
+}

@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin: 0 auto;
+    font-size: smaller;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    height: 100px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secondary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: space-between;
+    row-gap: 5px;
+}
+
+.secondary_column {
+    background-color: aqua;
+    height: 400px;
+    width: 40%;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.footer {
+    background-color: bisque;
+    height: 50px;
+    margin-top: 3px;
+}

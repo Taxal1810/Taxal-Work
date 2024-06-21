@@ -1,0 +1,49 @@
+$primary : rgb(210, 36, 65);
+$helvetica : 'Helvetica';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span {
+    margin: 0;
+    padding: 0;
+    font-family: $helvetica;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.header_link {
+    ul {
+        li {
+            a {
+                padding: 0 3px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@import './node_modules/bootstrap/scss/bootstrap.scss'

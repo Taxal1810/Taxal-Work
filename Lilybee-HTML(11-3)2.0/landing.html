@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_main">
+            <div class="header_top bg_perablack">
+                <div class="container">
+                    <div class="header_top_row">
+                        <div class="header_logo">
+                            <a href="#."><img src="images/lilybee-logo.png" alt=""></a>
+                        </div>
+                        <div class="header_searchfield">
+                            <input type="text" placeholder="What can we help you find?">
+                            <button class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22.748" height="22.754"
+                                    viewBox="0 0 22.748 22.754">
+                                    <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search"
+                                        d="M26.981,25.6l-6.327-6.386A9.016,9.016,0,1,0,19.286,20.6l6.285,6.344a.974.974,0,0,0,1.374.036A.98.98,0,0,0,26.981,25.6ZM13.569,20.677A7.119,7.119,0,1,1,18.6,18.592,7.075,7.075,0,0,1,13.569,20.677Z"
+                                        transform="translate(-4.5 -4.493)" fill="#f1c354" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header_shipping_txt sixteen_p">
+                            <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                        </div>
+                        <div class="header_options">
+                            <a href="#." class="profile_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24.75" height="24.75"
+                                    viewBox="0 0 24.75 24.75">
+                                    <path id="Icon_material-person" data-name="Icon material-person"
+                                        d="M17.375,17.375a5.688,5.688,0,1,0-5.687-5.687A5.686,5.686,0,0,0,17.375,17.375Zm0,2.844C13.579,20.219,6,22.124,6,25.906V28.75H28.75V25.906C28.75,22.124,21.171,20.219,17.375,20.219Z"
+                                        transform="translate(-5 -5)" fill="none" stroke="#fff" stroke-width="2" />
+                                </svg>
+                            </a>
+                            <a href="#." class="wishlist_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.66" height="22.75"
+                                    viewBox="0 0 23.66 22.75">
+                                    <path id="Icon_ionic-ios-heart-empty" data-name="Icon ionic-ios-heart-empty"
+                                        d="M20.665,3.938h-.057A6.471,6.471,0,0,0,15.2,6.9,6.471,6.471,0,0,0,9.8,3.938H9.745a6.43,6.43,0,0,0-6.37,6.427,13.844,13.844,0,0,0,2.719,7.547A47.643,47.643,0,0,0,15.2,26.688a47.643,47.643,0,0,0,9.111-8.776,13.844,13.844,0,0,0,2.719-7.547A6.43,6.43,0,0,0,20.665,3.938Zm2.366,13.036A43.623,43.623,0,0,1,15.2,24.686a43.688,43.688,0,0,1-7.826-7.718,12.27,12.27,0,0,1-2.411-6.6A4.826,4.826,0,0,1,9.756,5.536h.051a4.768,4.768,0,0,1,2.338.614,4.97,4.97,0,0,1,1.729,1.621,1.6,1.6,0,0,0,2.673,0A5.019,5.019,0,0,1,18.276,6.15a4.768,4.768,0,0,1,2.338-.614h.051a4.826,4.826,0,0,1,4.789,4.829A12.425,12.425,0,0,1,23.031,16.973Z"
+                                        transform="translate(-3.375 -3.938)" fill="#fff" />
+                                </svg>
+                            </a>
+                            <a href="#." class="cart_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25.833" height="24.75"
+                                    viewBox="0 0 25.833 24.75">
+                                    <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart"
+                                        transform="translate(-0.5 -0.5)">
+                                        <path id="Path_18" data-name="Path 18"
+                                            d="M14.727,31.364A1.364,1.364,0,1,1,13.364,30,1.364,1.364,0,0,1,14.727,31.364Z"
+                                            transform="translate(-3.113 -8.477)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                        <path id="Path_19" data-name="Path 19"
+                                            d="M31.227,31.364A1.364,1.364,0,1,1,29.864,30,1.364,1.364,0,0,1,31.227,31.364Z"
+                                            transform="translate(-8.621 -8.477)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                        <path id="Path_20" data-name="Path 20"
+                                            d="M1.5,1.5H5.833l2.9,13A2.126,2.126,0,0,0,10.9,16.068h10.53A2.126,2.126,0,0,0,23.6,14.5l1.733-8.149H6.917"
+                                            transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="mobileIcon">
+                            <a href="#."></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom bg_gray">
+                <div class="container">
+                    <div class="header_bottom_row right_menu">
+                        <div class="product_nav">
+                            <ul>
+                                <li><a href="#.">All products</a></li>
+                                <li><a href="#.">Magnesium cream</a></li>
+                                <li><a href="#.">Skincare</a></li>
+                                <li><a href="#.">Essential oil candles</a></li>
+                                <li><a href="#.">Loose leaf Tea</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_navbar">
+                            <ul>
+                                <li><a href="#.">About Us</a></li>
+                                <li><a href="#.">Stories</a></li>
+                                <li><a href="#.">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile_bottom_header">
+                        <div class="header_shipping_txt sixteen_p">
+                            <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                        </div>
+                        <div class="header_searchfield">
+                            <input type="text" placeholder="What can we help you find?">
+                            <button class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22.748" height="22.754"
+                                    viewBox="0 0 22.748 22.754">
+                                    <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search"
+                                        d="M26.981,25.6l-6.327-6.386A9.016,9.016,0,1,0,19.286,20.6l6.285,6.344a.974.974,0,0,0,1.374.036A.98.98,0,0,0,26.981,25.6ZM13.569,20.677A7.119,7.119,0,1,1,18.6,18.592,7.075,7.075,0,0,1,13.569,20.677Z"
+                                        transform="translate(-4.5 -4.493)" fill="#f1c354" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs_row">
+                <a href="index.html">Home</a>
+                <a href="#." class="active">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing_banner">
+        <div class="container">
+            <div class="landing_banner_row">
+                <div class="landing_banner_content">
+                    <div class="main_span_title twenty_p">
+                        <p>Wellness & Skin Care Products.</p>
+                    </div>
+                    <h1 class="title_h1">Menopause</h1>
+                </div>
+                <div class="landing_banner_img">
+                    <img src="images/landing_banner_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="symptoms_sec bg_pera-white">
+        <div class="container">
+            <div class="symptoms_sec_row_title twenty_p">
+                <h2 class="title_h2_big">Looking for an Alternative Way of Dealing with Menopausal Symptoms?</h2>
+                <p>Do you feel having a product that is made with natural and organic ingredients is the way to help
+                    alleviate the following; </p>
+            </div>
+            <div class="symptoms_sec_row">
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms1.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>symptoms</p>
+                    </div>
+                </a>
+
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms2.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>Sleeplessness </p>
+                    </div>
+                </a>
+
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms3.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>Muscle Cramps</p>
+                    </div>
+                </a>
+
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms4.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>Anxiety</p>
+                    </div>
+                </a>
+
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms5.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>Hot Flushes</p>
+                    </div>
+                </a>
+
+                <a href="#." class="symptoms_box">
+                    <div class="symptoms_box_img">
+                        <img src="images/symptoms6.png" alt="">
+                    </div>
+                    <div class="symptoms_box_content sixteen_p">
+                        <p>Elevated Blood Pressure </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product_slider_sec no_patch_sec bg_yellow landing_product_slider">
+        <div class="container">
+            <div class="product_slider_row">
+                <div class="sec_title">
+                    <h2 class="title_h2">Products For Menopause</h2>
+                </div>
+                <div class="swiper slider__product">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Magnesium Cream & Essentials</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product2.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Sea Moss Moisturiser</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product3.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Ginger & Lemongrass Essential Oil Candle</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product4.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Muscle Recovery Cream</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Magnesium Cream & Essentials</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_btn">
+                        <div class="swiper-button-prev-product btn__product">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                viewBox="0 0 8.414 14.828">
+                                <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6"
+                                    transform="translate(7 1.414) rotate(90)" fill="none" stroke="#020202"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next-product btn__product">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                viewBox="0 0 8.414 14.828">
+                                <g id="Group_8251" data-name="Group 8251" transform="translate(-39.086 -78.086)">
+                                    <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6"
+                                        transform="translate(46.5 79.5) rotate(90)" fill="none" stroke="#020202"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-product pagination_box"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="magnesium_sec bg_perablack">
+        <div class="container">
+            <div class="magnesium_title">
+                <svg id="Group_8291" data-name="Group 8291" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="52.673" height="45.484"
+                    viewBox="0 0 52.673 45.484">
+                    <defs>
+                        <clipPath id="clip-path">
+                            <rect id="Rectangle_737" data-name="Rectangle 737" width="52.673" height="45.484"
+                                fill="#fdf8eb" />
+                        </clipPath>
+                    </defs>
+                    <g id="Group_8290" data-name="Group 8290" clip-path="url(#clip-path)">
+                        <path id="Path_384" data-name="Path 384"
+                            d="M51.973,9.557c-.987-1.95-3.086-3.04-5.915-3.072a6.77,6.77,0,0,1-4.882-1.566,6.05,6.05,0,0,0-3.816-1.773c-.2-.018-.395-.032-.595-.046-1.277-.092-2.6-.186-3.442-1.228-.119-.149-.227-.31-.342-.482A2.5,2.5,0,0,0,31.612.172a2.2,2.2,0,0,0-.6-.078,4.583,4.583,0,0,0-1.307.239A19.29,19.29,0,0,0,26.413,1.8c-.951-.79-2.218-1.8-3.536-1.8a2.636,2.636,0,0,0-1.722.664c-.188.158-.372.321-.553.482a7.822,7.822,0,0,1-1.644,1.226,8.724,8.724,0,0,1-3.242.742c-.53.053-1.079.108-1.623.207a5.325,5.325,0,0,0-2.955,1.428c-.106.108-.209.218-.308.324A3.559,3.559,0,0,1,9.421,6.147,8.416,8.416,0,0,1,6.759,6.5a11.459,11.459,0,0,0-2.193.2A5.725,5.725,0,0,0,1.4,8.512,6.1,6.1,0,0,0,.02,12.838a.637.637,0,0,0,.613.609c8.025.436,16.06,5.086,22.623,13.093.471.574.923,1.153,1.339,1.72.034.044.067.092.1.138.06.085.119.17.184.25a1.6,1.6,0,0,0,.14.149.576.576,0,0,0,.271.344c.073.122.147.248.218.374l.2.354v15a.6.6,0,0,0,.627.613.65.65,0,0,0,.423-.149.6.6,0,0,0,.2-.464v-15c.234-.374.482-.746.744-1.123a.666.666,0,0,0,.044-.067A41.98,41.98,0,0,1,32.7,22.935a35,35,0,0,1,11.013-7.568,25.234,25.234,0,0,1,8.324-1.92.637.637,0,0,0,.613-.609,6.286,6.286,0,0,0-.682-3.281M28.716,25.426c-.241.289-.462.56-.68.827,0-.014,0-.025,0-.039a29.6,29.6,0,0,1,.817-5.536,11.4,11.4,0,0,1,6.1-7.594,2.4,2.4,0,0,0,1.826.932.545.545,0,0,0,.055,0,.142.142,0,0,0,.034,0,2.376,2.376,0,0,0,1.582-4.108,2.378,2.378,0,0,0-1.628-.636,2.43,2.43,0,0,0-1.075.253,2.376,2.376,0,0,0-1.286,2.326c0,.028.007.057.009.085a12.432,12.432,0,0,0-6.682,7.913,22.844,22.844,0,0,0-.829,4.413V9.853A2.389,2.389,0,0,0,28.712,7.61c0-.018,0-.034,0-.046s0-.032,0-.044A2.41,2.41,0,0,0,27.15,5.33a2.284,2.284,0,0,0-.8-.145,2.373,2.373,0,0,0-1.83.85,2.406,2.406,0,0,0-.225,2.742,2.352,2.352,0,0,0,1.417,1.07V23.812a22.966,22.966,0,0,0-.923-3.736,13.4,13.4,0,0,0-7.171-8.165,1.784,1.784,0,0,0,.018-.22.34.34,0,0,0,0-.046.25.25,0,0,0,0-.044,2.406,2.406,0,0,0-1.559-2.188,2.255,2.255,0,0,0-.8-.145,2.371,2.371,0,0,0-1.828.847,2.406,2.406,0,0,0-.227,2.742,2.377,2.377,0,0,0,2.062,1.155,2.579,2.579,0,0,0,.441-.039,2.3,2.3,0,0,0,1.435-.9,12.412,12.412,0,0,1,6.59,7.842,24.9,24.9,0,0,1,.93,4.443c.025.22.055.445.085.673.021.154.041.31.062.466-.09-.115-.181-.23-.276-.349a47.207,47.207,0,0,0-3.594-4,36.386,36.386,0,0,0-11.5-7.92,26.626,26.626,0,0,0-8.2-1.991,5.035,5.035,0,0,1,.792-2.51A4.383,4.383,0,0,1,4.7,7.952,10.79,10.79,0,0,1,6.975,7.72a11.055,11.055,0,0,0,2.363-.243,4.3,4.3,0,0,0,2.2-1.3A4.339,4.339,0,0,1,13.361,4.8a10.38,10.38,0,0,1,2.494-.425,13.1,13.1,0,0,0,2.168-.317,7.5,7.5,0,0,0,2.889-1.488c.165-.138.324-.3.5-.466a2.775,2.775,0,0,1,1.272-.9,1.3,1.3,0,0,1,.214-.018c.9,0,1.982.932,2.7,1.55.115.1.223.193.319.273a.67.67,0,0,0,.434.168.647.647,0,0,0,.3-.078l.064-.034a21.025,21.025,0,0,1,3.208-1.483l.055-.018a3.468,3.468,0,0,1,1.013-.227.892.892,0,0,1,.335.057,2.176,2.176,0,0,1,.829.912,4.037,4.037,0,0,0,.53.721,6.04,6.04,0,0,0,4.138,1.341,5.244,5.244,0,0,1,2.395.567,5.756,5.756,0,0,1,1.017.817c.09.083.177.165.266.246a7.955,7.955,0,0,0,5.559,1.743c1.722.018,3.973.487,4.916,2.622a5.294,5.294,0,0,1,.441,1.869c-8.094.638-16.147,5.318-22.7,13.194"
+                            transform="translate(0)" fill="#fdf8eb" />
+                    </g>
+                </svg>
+                <h2 class="title_h2_big"><span>Magnesium</span> is medically known to help with all of the above, the
+                    addition of essential oils can also help.</h2>
+            </div>
+            <div class="magnesium_row">
+                <div class="magnesium_fields">
+                    <ul id="tabList">
+                        <li><a href="#relaxation">Improve Relaxation</a></li>
+                        <li><a href="#mood">Uplift Your Mood</a></li>
+                        <li><a href="#energy">Help Increase Your Energy Levels</a></li>
+                    </ul>
+                </div>
+
+                <div id="relaxation" class="magnesium_content">    
+                    <div class="magnesium_content_row">
+                        <div class="magnesium_content_left">
+                            <img src="images/magnesium_1.png" alt="">
+                            <div class="product_shop">
+                                <a href="#." class="a_btn">Shop CREAM</a>
+                            </div>
+                        </div>
+                        <div class="magnesium_content_right">
+                            <h3 class="title_h3">Magnesium Cream</h3>
+                            <p>
+                                The challenge is getting the magnesium into your bloodstream as quickly as possible,
+                                that is why the LilyBee Magnesium Cream is so beneficial. The formula has been
+                                designed to open your pores to get the magnesium cream directly into the bloodstream
+                                and to the areas of muscle and joint pain as quickly and effectively as possible.
+                            </p>
+                            <p>
+                                How does LilyBee achieve this, by adding Vitamin E to the product.
+                            </p>
+                            <p>
+                                <span class="content_title_span">What does vitamin E do to the skin?</span>
+                            </p>
+                            <p>By applying vitamin E to your skin helps protect delicate skin from damage due to its
+                                antioxidant properties. It’s also extremely hydrating – it’s both a ‘humectant’ and
+                                an ‘emollient’ – so it helps your skin absorb water, cream etc that helps trap it
+                                within the skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mood" class="magnesium_content">
+                    <div class="magnesium_content_row">
+                        <div class="magnesium_content_left">
+                            <img src="images/magnesium_1.png" alt="">
+                            <div class="product_shop">
+                                <a href="#." class="a_btn">Shop CREAM</a>
+                            </div>
+                        </div>
+                        <div class="magnesium_content_right">
+                            <h3 class="title_h3">Magnesium Cream</h3>
+                            <p>
+                                The challenge is getting the magnesium into your bloodstream as quickly as possible,
+                                that is why the LilyBee Magnesium Cream is so beneficial. The formula has been
+                                designed to open your pores to get the magnesium cream directly into the bloodstream
+                                and to the areas of muscle and joint pain as quickly and effectively as possible.
+                            </p>
+                            <p>
+                                How does LilyBee achieve this, by adding Vitamin E to the product.
+                            </p>
+                            <p>
+                                <span class="content_title_span">What does vitamin E do to the skin?</span>
+                            </p>
+                            <p>By applying vitamin E to your skin helps protect delicate skin from damage due to its
+                                antioxidant properties. It’s also extremely hydrating – it’s both a ‘humectant’ and
+                                an ‘emollient’ – so it helps your skin absorb water, cream etc that helps trap it
+                                within the skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="energy" class="magnesium_content">
+                    <div class="magnesium_content_row">
+                        <div class="magnesium_content_left">
+                            <img src="images/magnesium_1.png" alt="">
+                            <div class="product_shop">
+                                <a href="#." class="a_btn">Shop CREAM</a>
+                            </div>
+                        </div>
+                        <div class="magnesium_content_right">
+                            <h3 class="title_h3">Magnesium Cream</h3>
+                            <p>
+                                The challenge is getting the magnesium into your bloodstream as quickly as possible,
+                                that is why the LilyBee Magnesium Cream is so beneficial. The formula has been
+                                designed to open your pores to get the magnesium cream directly into the bloodstream
+                                and to the areas of muscle and joint pain as quickly and effectively as possible.
+                            </p>
+                            <p>
+                                How does LilyBee achieve this, by adding Vitamin E to the product.
+                            </p>
+                            <p>
+                                <span class="content_title_span">What does vitamin E do to the skin?</span>
+                            </p>
+                            <p>By applying vitamin E to your skin helps protect delicate skin from damage due to its
+                                antioxidant properties. It’s also extremely hydrating – it’s both a ‘humectant’ and
+                                an ‘emollient’ – so it helps your skin absorb water, cream etc that helps trap it
+                                within the skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="magnesium_bgimg">
+            <img src="images/magnesium_bgimg.png" alt="">
+        </div>
+    </section>
+
+    <section class="customer_say_sec bg_pera-white">
+        <div class="container">
+            <div class="customer_say_title">
+                <h2 class="title_h2_big">What Our Customers Say</h2>
+                <img src="images/customer_title_img.png" alt="">
+            </div>
+            <div class="customer_say_row">
+                <div class="swiper review_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Amazing!</h3>
+                                    <p> Love using this cream post workout for muscle recovery and it works wonders on my aches and pains. Absorbs very well and I love the packaging!</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Excellent Cream</h3>
+                                    <p>Beautiful smooth and absorbs quickly. Thank you. Excellent help for this post menopausal woman</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">B Recovery Magnesium Cream </h3>
+                                    <p>LB Recovery Magnesium Cream certainly helps muscles Recovery after walking and yoga.</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Amazing!</h3>
+                                    <p> Love using this cream post workout for muscle recovery and it works wonders on my aches and pains. Absorbs very well and I love the packaging!</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Excellent Cream</h3>
+                                    <p>Beautiful smooth and absorbs quickly. Thank you. Excellent help for this post menopausal woman</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">B Recovery Magnesium Cream </h3>
+                                    <p>LB Recovery Magnesium Cream certainly helps muscles Recovery after walking and yoga.</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-review pagination_box"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mewsletter_sec">
+        <div class="container">
+            <div class="mewsletter_row bg_gray">
+                <div class="mewsletter_left">
+                    <h2 class="title_h3">Subscribe to our newsletter</h2>
+                    <p>Get all the latest news, articles and resources  every month.</p>
+                </div>
+                <div class="mewsletter_right">
+                    <div class="input_field_email">
+                        <input type="email" placeholder="Enter your email..">
+                        <button class="a_btn primary_btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_main">
+            <div class="footer_top bg_perablack">
+                <div class="container">
+                    <div class="footer_top_row">
+                        <div class="footer_logo">
+                            <a href="#.">
+                                <img src="images/footer_logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer_navbar">
+                            <div class="footer_nav_product">
+                                <h2 class="title_h6">Links</h2>
+                                <ul class="navbar__footer">
+                                    <li><a href="#.">All products</a></li>
+                                    <li><a href="#.">Magnesium cream</a></li>
+                                    <li><a href="#.">Skincare</a></li>
+                                    <li><a href="#.">Essential oil candles</a></li>
+                                    <li><a href="#.">Loose leaf Tea</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_nav_menu">
+                                <h2 class="title_h6">More</h2>
+                                <ul class="navbar__footer">
+                                    <li><a href="#.">About Us</a></li>
+                                    <li><a href="#.">Stories</a></li>
+                                    <li><a href="#.">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact_footer">
+                                <div class="contact_media">
+                                    <h2 class="title_h6">Connect</h2>
+                                    <ul>
+                                        <li><a href="#.">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="9.296" height="17.357"
+                                                    viewBox="0 0 9.296 17.357">
+                                                    <path id="Icon_awesome-facebook-f"
+                                                        data-name="Icon awesome-facebook-f"
+                                                        d="M10.3,9.763l.482-3.141H7.764V4.584a1.571,1.571,0,0,1,1.771-1.7h1.37V.212A16.71,16.71,0,0,0,8.473,0c-2.482,0-4.1,1.5-4.1,4.228V6.622H1.609V9.763H4.369v7.594h3.4V9.763Z"
+                                                        transform="translate(-1.609)" fill="#96968E" />
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#.">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="17.01" height="17.357"
+                                                    viewBox="0 0 17.01 17.357">
+                                                    <path id="Icon_simple-google" data-name="Icon simple-google"
+                                                        d="M9.039,7.438v2.976h4.922a4.686,4.686,0,0,1-4.922,3.742,5.479,5.479,0,0,1,0-10.955A4.885,4.885,0,0,1,12.5,4.538l2.353-2.269A8.327,8.327,0,0,0,9.039,0a8.679,8.679,0,1,0,0,17.357c5.009,0,8.331-3.521,8.331-8.48a7.907,7.907,0,0,0-.137-1.438Z"
+                                                        transform="translate(-0.36)" fill="#96968E" />
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#.">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="17.36" height="17.356"
+                                                    viewBox="0 0 17.36 17.356">
+                                                    <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram"
+                                                        d="M8.677,6.466a4.45,4.45,0,1,0,4.45,4.45A4.443,4.443,0,0,0,8.677,6.466Zm0,7.343a2.893,2.893,0,1,1,2.893-2.893,2.9,2.9,0,0,1-2.893,2.893Zm5.67-7.525a1.038,1.038,0,1,1-1.038-1.038A1.036,1.036,0,0,1,14.347,6.284Zm2.947,1.053a5.137,5.137,0,0,0-1.4-3.637,5.17,5.17,0,0,0-3.637-1.4c-1.433-.081-5.728-.081-7.161,0A5.163,5.163,0,0,0,1.458,3.7a5.153,5.153,0,0,0-1.4,3.637c-.081,1.433-.081,5.728,0,7.161a5.137,5.137,0,0,0,1.4,3.637,5.177,5.177,0,0,0,3.637,1.4c1.433.081,5.728.081,7.161,0a5.137,5.137,0,0,0,3.637-1.4,5.17,5.17,0,0,0,1.4-3.637c.081-1.433.081-5.724,0-7.157Zm-1.851,8.695a2.929,2.929,0,0,1-1.65,1.65c-1.143.453-3.854.349-5.116.349s-3.978.1-5.116-.349a2.929,2.929,0,0,1-1.65-1.65c-.453-1.143-.349-3.854-.349-5.116s-.1-3.978.349-5.116a2.929,2.929,0,0,1,1.65-1.65C4.7,3.7,7.414,3.8,8.677,3.8s3.978-.1,5.116.349a2.929,2.929,0,0,1,1.65,1.65c.453,1.143.349,3.854.349,5.116S15.9,14.893,15.443,16.032Z"
+                                                        transform="translate(0.005 -2.238)" fill="#96968E" />
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#.">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="17.887" height="17.357"
+                                                    viewBox="0 0 17.887 17.357">
+                                                    <g id="Group_8154" data-name="Group 8154"
+                                                        transform="translate(-156.332)">
+                                                        <path id="Icon_zocial-linkedin" data-name="Icon zocial-linkedin"
+                                                            d="M-.18,2.232A1.9,1.9,0,0,1,.424.786,2.2,2.2,0,0,1,2,.216,2.132,2.132,0,0,1,3.532.777a1.993,1.993,0,0,1,.6,1.508,1.86,1.86,0,0,1-.587,1.4,2.2,2.2,0,0,1-1.588.579H1.944A2.1,2.1,0,0,1,.407,3.687,1.958,1.958,0,0,1-.18,2.232Zm.224,15.34V5.861H3.877V17.573H.044Zm5.957,0H9.834V11.033a2.3,2.3,0,0,1,.872-1.955,1.857,1.857,0,0,1,1.234-.412q1.934,0,1.934,2.647v6.259h3.833V10.858A5.7,5.7,0,0,0,16.5,6.922,4.092,4.092,0,0,0,13.3,5.581a3.9,3.9,0,0,0-3.47,1.946v.035H9.817l.017-.035V5.861H6q.035.561.035,3.489T6,17.573Z"
+                                                            transform="translate(156.512 -0.216)" fill="#96968E" />
+                                                    </g>
+                                                </svg>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <div class="shipping_txt_footer sixteen_p">
+                                    <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom bg_gray">
+                <div class="container">
+                    <div class="footer_bottom_row">
+                        <div class="footer_card_icon">
+                            <img src="images/card_img.png" alt="">
+                        </div>
+                        <div class="footer_copyright">
+                            <p>©2024 Lilybee. Design And Development By Adeo Group</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

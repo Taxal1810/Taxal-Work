@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Home Page - LilyBee</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_main">
+            <div class="header_top bg_perablack">
+                <div class="container">
+                    <div class="header_top_row">
+                        <div class="header_logo">
+                            <a href="#."><img src="images/lilybee-logo.png" alt=""></a>
+                        </div>
+                        <div class="header_searchfield">
+                            <input type="text" placeholder="What can we help you find?">
+                            <button class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22.748" height="22.754"
+                                    viewBox="0 0 22.748 22.754">
+                                    <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search"
+                                        d="M26.981,25.6l-6.327-6.386A9.016,9.016,0,1,0,19.286,20.6l6.285,6.344a.974.974,0,0,0,1.374.036A.98.98,0,0,0,26.981,25.6ZM13.569,20.677A7.119,7.119,0,1,1,18.6,18.592,7.075,7.075,0,0,1,13.569,20.677Z"
+                                        transform="translate(-4.5 -4.493)" fill="#f1c354" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header_shipping_txt sixteen_p">
+                            <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                        </div>
+                        <div class="header_options">
+                            <a href="#." class="profile_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24.75" height="24.75"
+                                    viewBox="0 0 24.75 24.75">
+                                    <path id="Icon_material-person" data-name="Icon material-person"
+                                        d="M17.375,17.375a5.688,5.688,0,1,0-5.687-5.687A5.686,5.686,0,0,0,17.375,17.375Zm0,2.844C13.579,20.219,6,22.124,6,25.906V28.75H28.75V25.906C28.75,22.124,21.171,20.219,17.375,20.219Z"
+                                        transform="translate(-5 -5)" fill="none" stroke="#fff" stroke-width="2" />
+                                </svg>
+                            </a>
+                            <a href="#." class="wishlist_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.66" height="22.75"
+                                    viewBox="0 0 23.66 22.75">
+                                    <path id="Icon_ionic-ios-heart-empty" data-name="Icon ionic-ios-heart-empty"
+                                        d="M20.665,3.938h-.057A6.471,6.471,0,0,0,15.2,6.9,6.471,6.471,0,0,0,9.8,3.938H9.745a6.43,6.43,0,0,0-6.37,6.427,13.844,13.844,0,0,0,2.719,7.547A47.643,47.643,0,0,0,15.2,26.688a47.643,47.643,0,0,0,9.111-8.776,13.844,13.844,0,0,0,2.719-7.547A6.43,6.43,0,0,0,20.665,3.938Zm2.366,13.036A43.623,43.623,0,0,1,15.2,24.686a43.688,43.688,0,0,1-7.826-7.718,12.27,12.27,0,0,1-2.411-6.6A4.826,4.826,0,0,1,9.756,5.536h.051a4.768,4.768,0,0,1,2.338.614,4.97,4.97,0,0,1,1.729,1.621,1.6,1.6,0,0,0,2.673,0A5.019,5.019,0,0,1,18.276,6.15a4.768,4.768,0,0,1,2.338-.614h.051a4.826,4.826,0,0,1,4.789,4.829A12.425,12.425,0,0,1,23.031,16.973Z"
+                                        transform="translate(-3.375 -3.938)" fill="#fff" />
+                                </svg>
+                            </a>
+                            <a href="#." class="cart_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25.833" height="24.75"
+                                    viewBox="0 0 25.833 24.75">
+                                    <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart"
+                                        transform="translate(-0.5 -0.5)">
+                                        <path id="Path_18" data-name="Path 18"
+                                            d="M14.727,31.364A1.364,1.364,0,1,1,13.364,30,1.364,1.364,0,0,1,14.727,31.364Z"
+                                            transform="translate(-3.113 -8.477)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                        <path id="Path_19" data-name="Path 19"
+                                            d="M31.227,31.364A1.364,1.364,0,1,1,29.864,30,1.364,1.364,0,0,1,31.227,31.364Z"
+                                            transform="translate(-8.621 -8.477)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                        <path id="Path_20" data-name="Path 20"
+                                            d="M1.5,1.5H5.833l2.9,13A2.126,2.126,0,0,0,10.9,16.068h10.53A2.126,2.126,0,0,0,23.6,14.5l1.733-8.149H6.917"
+                                            transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="mobileIcon">
+                            <a href="#."></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom bg_gray">
+                <div class="container">
+                    <div class="header_bottom_row right_menu">
+                        <div class="product_nav">
+                            <ul>
+                                <li><a href="#.">All products</a></li>
+                                <li><a href="#.">Magnesium cream</a></li>
+                                <li><a href="#.">Skincare</a></li>
+                                <li><a href="#.">Essential oil candles</a></li>
+                                <li><a href="#.">Loose leaf Tea</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_navbar">
+                            <ul>
+                                <li><a href="#.">About Us</a></li>
+                                <li><a href="#.">Stories</a></li>
+                                <li><a href="#.">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile_bottom_header">
+                        <div class="header_shipping_txt sixteen_p">
+                            <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                        </div>
+                        <div class="header_searchfield">
+                            <input type="text" placeholder="What can we help you find?">
+                            <button class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22.748" height="22.754"
+                                    viewBox="0 0 22.748 22.754">
+                                    <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search"
+                                        d="M26.981,25.6l-6.327-6.386A9.016,9.016,0,1,0,19.286,20.6l6.285,6.344a.974.974,0,0,0,1.374.036A.98.98,0,0,0,26.981,25.6ZM13.569,20.677A7.119,7.119,0,1,1,18.6,18.592,7.075,7.075,0,0,1,13.569,20.677Z"
+                                        transform="translate(-4.5 -4.493)" fill="#f1c354" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero_banner_sec bg_eggshell">
+        <div class="container">
+            <div class="hero_banner_row">
+                <div class="hero_banner_contant">
+                    <div class="banner_content_top twenty_p">
+                        <p>Natural Ingredients</br> Eco Friendly</p>
+                    </div>
+                    <h1 class="title_h1">Wellness & Skin Care Products.</h1>
+                    <a href="#." class="a_btn">GO TO SHOP</a>
+                </div>
+                <div class="hero_banner_image">
+                    <div class="hero_banner_image_row">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_yellow"></div>
+                            <div class="image_box_content">
+                                <p>Menopause</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product1.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>muscle &</br> Joint pain</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box blank_box">
+                            <div class="image_box_image">
+                            </div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product2.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>arthritis</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row">
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product3.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>sensitive</br> skin</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product4.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>psoriasis</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_darkyellow"></div>
+                            <div class="image_box_content">
+                                <p>dry skin</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product5.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Mental</br> Health</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product6.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Anti-</br>Ageing</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row">
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product7.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>eczema</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product8.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Rosacia</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product9.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>pregnancy</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row">
+                        <div class="banner_image_box blank_box">
+                            <div class="image_box_image">
+                            </div>
+                        </div>
+                        <div class="banner_image_box blank_box">
+                            <div class="image_box_image">
+                            </div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_yellow"></div>
+                            <div class="image_box_content">
+                                <p>Hormonal</br> acne</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_banner_image_mobile">
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_yellow"></div>
+                            <div class="image_box_content">
+                                <p>Menopause</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product1.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>muscle &</br> Joint pain</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product3.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>sensitive</br> skin</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product4.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>psoriasis</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_darkyellow"></div>
+                            <div class="image_box_content">
+                                <p>dry skin</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product7.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>eczema</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product8.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Rosacia</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_yellow"></div>
+                            <div class="image_box_content">
+                                <p>Hormonal</br> acne</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product2.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>arthritis</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product9.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>pregnancy</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                    <div class="hero_banner_image_row_mobile">
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product5.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Mental</br> Health</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image">
+                                <img src="images/banner-product6.png" alt="">
+                            </div>
+                            <div class="image_box_content">
+                                <p>Anti-</br>Ageing</p>
+                            </div>
+                            <a href="#." class="underline_btn">SHOP</a>
+                        </div>
+                        <div class="banner_image_box">
+                            <div class="image_box_image bg_eggshell"></div>
+                            <div class="image_box_content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product_slider_sec">
+        <div class="container">
+            <div class="product_slider_row">
+                <div class="sec_title">
+                    <h2 class="title_h2">Bestsellers</h2>
+                </div>
+                <div class="swiper slider__product">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Magnesium Cream & Essentials</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product2.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Sea Moss</br> Moisturiser</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product3.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Ginger & Lemongrass Essential Oil Candle</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product4.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Muscle Recovery Cream</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Magnesium Cream & Essentials</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-product pagination_box"></div>
+                </div>
+                <div class="slider_btn">
+                    <div class="swiper-button-prev-product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                            viewBox="0 0 8.414 14.828">
+                            <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6"
+                                transform="translate(7 1.414) rotate(90)" fill="none" stroke="#020202"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next-product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                            viewBox="0 0 8.414 14.828">
+                            <g id="Group_8251" data-name="Group 8251" transform="translate(-39.086 -78.086)">
+                                <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6"
+                                    transform="translate(46.5 79.5) rotate(90)" fill="none" stroke="#020202"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey_sec">
+        <div class="container">
+            <div class="journey_sec_row">
+                <div class="journey_sec_content">
+                    <h2 class="title_h2_big">Your Wellness Journey Begins Here</h2>
+                    <p>
+                        Natural mineral compounds, pure essential oils, marine botanicals, herbal teas and theraputic
+                        soy candles coming together to help with your overall physical and mental wellbeing - from
+                        muscle fatigue after exercise, sleeplessness to anxiety. Find a moment to relax and unwind.
+                    </p>
+                    <a href="#." class="a_btn">GO TO SHOP</a>
+                </div>
+                <div class="journey_sec_img">
+                    <div class="journey_images">
+                        <img src="images/journey_sec_img2.png" alt="">
+                    </div>
+                    <div class="journey_sec_mainimg">
+                        <img src="images/journey_sec_img1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why_lilybee_sec">
+        <div class="container">
+            <div class="why_lilybee_content">
+                <div class="why_lilybee_title">
+                    <h2 class="title_h2_big">Why LilyBee?</h2>
+                    <p>
+                        By focusing on small batch production of our products, we seek to be an environmentally
+                        sustainable company. All of our goods are natural, ethically sourced with human quality control
+                        in mind.
+                    </p>
+                </div>
+                <div class="why_lilybee_row">
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box1.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>Consciously Sourced. Vegetarian & Vegan Friendly </p>
+                        </div>
+                    </div>
+
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box2.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>Natural Ingredients</p>
+                        </div>
+                    </div>
+
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box3.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>Supporting Mental Wellness</p>
+                        </div>
+                    </div>
+
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box4.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>Small Batch Production</p>
+                        </div>
+                    </div>
+
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box5.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>Hand Made In The United Kingdom</p>
+                        </div>
+                    </div>
+
+                    <div class="why_lilybee_box">
+                        <div class="why_lilybee_box_img">
+                            <img src="images/why_box6.png" alt="">
+                        </div>
+                        <div class="why_lilybee_box_info sixteen_p">
+                            <p>International Delivery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_us_btn">
+                    <a href="#." class="a_btn primary_btn">about us</a>
+                </div>
+            </div>
+        </div>
+        <div class="why_lilybee_bg_image">
+            <img src="images/why_lilybee_bg_image.png" alt="">
+        </div>
+    </section>
+
+    <section class="journey_sec relief_sec">
+        <div class="container">
+            <div class="journey_sec_row">
+                <div class="journey_sec_content">
+                    <h2 class="title_h2_big">Relief For Sports</br> Related Injuries</h2>
+                    <p>
+                        MAGNESIUM relaxes your muscles and controls their contractions. It helps lessen the build-up of
+                        lactic acid, which can cause muscular tension. This then enables your muscles to get the oxygen
+                        they need. Magnesium removes the calcium buildup which causes muscle strain and resets the
+                        muscle to its original state.
+                    </p>
+                    <div class="journey_sec_content_btn">
+                        <a href="#." class="a_btn">GO TO SHOP</a>
+                        <a href="#watch-story" class="a_btn white_btn popup-with-zoom-anim">
+                            Watch Story
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10.257" height="11.723"
+                                viewBox="0 0 10.257 11.723">
+                                <path id="Icon_awesome-play" data-name="Icon awesome-play"
+                                    d="M9.717,4.917,1.658.153A1.093,1.093,0,0,0,0,1.1v9.527a1.1,1.1,0,0,0,1.658.946L9.717,6.808a1.1,1.1,0,0,0,0-1.891Z"
+                                    transform="translate(0 -0.002)" fill="currentcolor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="journey_sec_img">
+                    <div class="journey_images">
+                        <img src="images/relief_sec_img2.png" alt="">
+                    </div>
+                    <div class="journey_sec_mainimg">
+                        <img src="images/relief_sec_img1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="watch-story" class="watch-story zoom-anim-dialog mfp-hide">
+                <div class="watch-story_main">
+                    <div class="watch-story_main_content">
+                        <h4 class="title_h1">Watch</br> Our Story</h4>
+                        <div class="watch_video">
+                            <a href="#." class="play_button" id="playButton">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31.016" height="35.449"
+                                    viewBox="0 0 31.016 35.449">
+                                    <path id="Icon_awesome-play" data-name="Icon awesome-play"
+                                        d="M29.383,14.865,5.013.457A3.3,3.3,0,0,0,0,3.316V32.124a3.32,3.32,0,0,0,5.013,2.859l24.37-14.4a3.32,3.32,0,0,0,0-5.719Z"
+                                        transform="translate(0 -0.002)" fill="#020202" />
+                                </svg>
+                            </a>
+                            <video controls id="videoPopup" style="display: none;">
+                                <source src="videos/sample_video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="watch-story_main_bgimg">
+                        <img src="images/watch-story-bgimg.png" alt="">
+                    </div>
+                    <div class="watch-story_main_patch">
+                        <img src="images/watch-story-patch.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ingredients_sec">
+        <div class="container">
+            <div class="ingredients_row">
+                <div class="ingredients_title">
+                    <img src="images/ingredients-title-img.png" alt="">
+                    <h2 class="title_h2_big">We’re passionate about our choice of ingredients.</h2>
+                </div>
+                <div class="ingredients_content">
+                    <div class="ingredients_content_row">
+                        <div class="swiper ingredients_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="ingredients_info_box">
+                                        <h3 class="title_h3 text_yellow">Essential Oils</h3>
+                                        <p>
+                                            Pure essential oils aid body and mind in its proper function and wellness.
+                                            They provide
+                                            a wide range of extremely therapeutic, anti-inflammatory, regenerating and
+                                            skin-supporting effects and are known for their antioxidant properties.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="ingredients_info_box">
+                                        <h3 class="title_h3 text_yellow">Mineral Compounds</h3>
+                                        <p>
+                                            Minerals create hundreds of biochemical reactions in your body which
+                                            regulate
+                                            cellular
+                                            regeneration and repair the skin, have high anti-inflammatory properties,
+                                            may
+                                            help with
+                                            deep and restful sleep and can aid muscle recovery.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="ingredients_info_box">
+                                        <h3 class="title_h3 text_yellow">Marine Botanicals</h3>
+                                        <p>
+                                            The sea moss, marine algae and seaweed in particular promote glowing skin
+                                            and
+                                            have
+                                            highly therapeutic and anti-inflammatory properties due to the high
+                                            concentration of
+                                            zinc, vitamin a,
+                                            and sulphur.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_btn">
+                                <div class="swiper-button-prev-ingredients btn__product">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                        viewBox="0 0 8.414 14.828">
+                                        <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6"
+                                            transform="translate(7 1.414) rotate(90)" fill="none" stroke="#fefef1"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-next-ingredients btn__product">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                        viewBox="0 0 8.414 14.828">
+                                        <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6"
+                                            transform="translate(7.414 1.414) rotate(90)" fill="none" stroke="#fefef1"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#." class="a_btn primary_btn">View all</a>
+                </div>
+            </div>
+        </div>
+        <div class="ingredients_sec_bg">
+            <img src="images/ingredients_bgimage.png" alt="">
+        </div>
+    </section>
+
+    <section class="find_product_sec bg_pera-white">
+        <div class="container">
+            <div class="find_product_title">
+                <h2 class="title_h2_big">Find Your Products</h2>
+                <div class="view_all_btn">
+                    <a href="#." class="a_btn">View all</a>
+                </div>
+            </div>
+            <div class="find_product_content">
+                <div class="swiper find_product_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product1.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop CREAM</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Magnesium Cream</h3>
+                                    <p>
+                                        Supporting menopause/manopause, pregnancy/post-pregnancy, muscle & joint pain,
+                                        arthritis, sleep issues (including dementia and alzheimer’s), and epilepsy to
+                                        reduce
+                                        seizures.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product2.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop SKINCARE</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Skincare Products</h3>
+                                    <p>
+                                        Organic solutions for individuals with rosacea, hormonal acne, dry skin,
+                                        psoriasis, eczema, and sensitive skin. Providing antibacterial deep facial
+                                        cleansing. Promoting youthful appearance and mental well-being.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product3.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop CANDLES</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Essential Oil Candles</h3>
+                                    <p>
+                                        Soothing, essential oil blends for focus, clarity, and relaxation. Easing
+                                        menopausal hot flushes, reducing stress/anxiety, supporting concentration,
+                                        boosting energy, and enhancing awareness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product4.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop TEA</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Loose Leaf Tea</h3>
+                                    <p>
+                                        Supports respiratory health (asthma, COPD), aids smoking cessation, relieves
+                                        rheumatism/arthritis, and provides nutrients. Also, a natural allergy remedy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product1.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop CREAM</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Magnesium Cream</h3>
+                                    <p>
+                                        Supporting menopause/manopause, pregnancy/post-pregnancy, muscle & joint pain,
+                                        arthritis, sleep issues (including dementia and alzheimer’s), and epilepsy to
+                                        reduce
+                                        seizures.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product2.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop SKINCARE</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Skincare Products</h3>
+                                    <p>
+                                        Organic solutions for individuals with rosacea, hormonal acne, dry skin,
+                                        psoriasis, eczema, and sensitive skin. Providing antibacterial deep facial
+                                        cleansing. Promoting youthful appearance and mental well-being.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product3.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop CANDLES</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Essential Oil Candles</h3>
+                                    <p>
+                                        Soothing, essential oil blends for focus, clarity, and relaxation. Easing
+                                        menopausal hot flushes, reducing stress/anxiety, supporting concentration,
+                                        boosting energy, and enhancing awareness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="find_product_content_box">
+                                <div class="find_product_content_box_top">
+                                    <div class="find_product_box_img">
+                                        <img src="images/find_product4.png" alt="">
+                                    </div>
+                                    <div class="find_product_box_shop">
+                                        <a href="#." class="a_btn">Shop TEA</a>
+                                    </div>
+                                </div>
+                                <div class="find_product_content_box_bottom">
+                                    <h3 class="title_h3">Loose Leaf Tea</h3>
+                                    <p>
+                                        Supports respiratory health (asthma, COPD), aids smoking cessation, relieves
+                                        rheumatism/arthritis, and provides nutrients. Also, a natural allergy remedy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-find pagination_box"></div>
+                </div>
+                <div class="slider_btn">
+                    <div class="swiper-button-prev-find_product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828" viewBox="0 0 8.414 14.828">
+                            <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6" transform="translate(7 1.414) rotate(90)" fill="none" stroke="#020202" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </svg>                          
+                    </div>
+                    <div class="swiper-button-next-find_product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828" viewBox="0 0 8.414 14.828">
+                            <g id="Group_8251" data-name="Group 8251" transform="translate(-39.086 -78.086)">
+                              <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6" transform="translate(46.5 79.5) rotate(90)" fill="none" stroke="#020202" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product_slider_sec reverse_patch">
+        <div class="container">
+            <div class="product_slider_row">
+                <div class="sec_title">
+                    <h2 class="title_h2">Featured</h2>
+                </div>
+                <div class="swiper slider__product">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/featured-product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Facial Oil</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/featured-product2.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Sea Moss</br> Moisturiser</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/featured-product3.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Skincare</br> Bundle</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/featured-product4.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Muscle Recovery</br> Cream</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slider_box">
+                                <div class="product_slider_box_img">
+                                    <img src="images/product1.png" alt="">
+                                </div>
+                                <div class="product_slider_box_content">
+                                    <div class="rating_product">
+                                        <img src="images/rating_product.png" alt="">
+                                    </div>
+                                    <div class="product_name">
+                                        <h3 class="title_h3">Magnesium Cream & Essentials</h3>
+                                    </div>
+                                    <div class="product_price sixteen_p">
+                                        <p>£29.99</p>
+                                    </div>
+                                    <a href="#." class="a_btn add-to-cart">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-product pagination_box"></div>
+                </div>
+                <div class="slider_btn">
+                    <div class="swiper-button-prev-product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                            viewBox="0 0 8.414 14.828">
+                            <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6"
+                                transform="translate(7 1.414) rotate(90)" fill="none" stroke="#020202"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next-product btn__product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                            viewBox="0 0 8.414 14.828">
+                            <g id="Group_8251" data-name="Group 8251" transform="translate(-39.086 -78.086)">
+                                <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6"
+                                    transform="translate(46.5 79.5) rotate(90)" fill="none" stroke="#020202"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey_sec reverse_sec natural_sec">
+        <div class="container">
+            <div class="journey_sec_row">
+                <div class="journey_sec_content">
+                    <h2 class="title_h2_big">Natural, Ethically Sourced Ingredients</h2>
+                    <div class="natural_sec_details">
+                        <p>
+                            LilyBee offers a natural skincare line that was created in the founder’s kitchen while she
+                            was
+                            researching a solution for menopausal symptoms such as insomnia and restless leg syndrome.
+                            The
+                            products are inspired by active mineral compounds, pure essential oils, and marine
+                            botanicals
+                            that deliver optimal results.
+                        </p>
+                        <p>
+                            LilyBee’s products are made from the highest-quality ingredients in bio-degradable jars and
+                            delivered in eco-friendly packaging.
+                        </p>
+                    </div>
+                    <div class="journey_sec_content_btn">
+                        <a href="#." class="a_btn">GO TO SHOP</a>
+                    </div>
+                </div>
+                <div class="journey_sec_img">
+                    <div class="journey_images">
+                        <img src="images/natural_img2.png" alt="">
+                    </div>
+                    <div class="journey_sec_mainimg">
+                        <img src="images/natural_main_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer_say_sec bg_pera-white">
+        <div class="container">
+            <div class="customer_say_title">
+                <h2 class="title_h2_big">What Our Customers Say</h2>
+                <img src="images/customer_title_img.png" alt="">
+            </div>
+            <div class="customer_say_row">
+                <div class="swiper review_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Amazing!</h3>
+                                    <p> Love using this cream post workout for muscle recovery and it works wonders on
+                                        my aches and pains. Absorbs very well and I love the packaging!</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Excellent Cream</h3>
+                                    <p>Beautiful smooth and absorbs quickly. Thank you. Excellent help for this post
+                                        menopausal woman</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">B Recovery Magnesium Cream </h3>
+                                    <p>LB Recovery Magnesium Cream certainly helps muscles Recovery after walking and
+                                        yoga.</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Amazing!</h3>
+                                    <p> Love using this cream post workout for muscle recovery and it works wonders on
+                                        my aches and pains. Absorbs very well and I love the packaging!</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">Excellent Cream</h3>
+                                    <p>Beautiful smooth and absorbs quickly. Thank you. Excellent help for this post
+                                        menopausal woman</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="customer_say_box">
+                                <div class="customer_rating">
+                                    <img src="images/customer_rating.png" alt="">
+                                </div>
+                                <div class="customer_review sixteen_p">
+                                    <h3 class="title_h3">B Recovery Magnesium Cream </h3>
+                                    <p>LB Recovery Magnesium Cream certainly helps muscles Recovery after walking and
+                                        yoga.</p>
+                                </div>
+                                <div class="customer_info">
+                                    <p>Karen D</p>
+                                    <p>Magnesium cream</p>
+                                </div>
+                                <div class="customer_view_all">
+                                    <a href="#." class="a_btn primary_btn">View all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-review pagination_box"></div>
+                    <div class="slider_btn">
+                        <div class="swiper-button-prev-review btn__product">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                viewBox="0 0 8.414 14.828">
+                                <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,0,6,6l6-6"
+                                    transform="translate(7 1.414) rotate(90)" fill="none" stroke="#020202"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next-review btn__product">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.414" height="14.828"
+                                viewBox="0 0 8.414 14.828">
+                                <path id="Chevron_Icon" data-name="Chevron Icon" d="M0,6,6,0l6,6"
+                                    transform="translate(7.414 1.414) rotate(90)" fill="none" stroke="#020202"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mewsletter_sec">
+        <div class="container">
+            <div class="mewsletter_row bg_gray">
+                <div class="mewsletter_left">
+                    <h2 class="title_h3">Subscribe to our newsletter</h2>
+                    <p>Get all the latest news, articles and resources every month.</p>
+                </div>
+                <div class="mewsletter_right">
+                    <div class="input_field_email">
+                        <input type="email" placeholder="Enter your email..">
+                        <button class="a_btn primary_btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_main">
+            <div class="footer_top bg_perablack">
+                <div class="container">
+                    <div class="footer_top_row">
+                        <div class="footer_logo">
+                            <a href="#.">
+                                <img src="images/footer_logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer_navbar">
+                            <div class="footer_nav_product">
+                                <h2 class="title_h6">Links</h2>
+                                <ul class="navbar__footer">
+                                    <li><a href="#.">All products</a></li>
+                                    <li><a href="#.">Magnesium cream</a></li>
+                                    <li><a href="#.">Skincare</a></li>
+                                    <li><a href="#.">Essential oil candles</a></li>
+                                    <li><a href="#.">Loose leaf Tea</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_nav_menu">
+                                <h2 class="title_h6">More</h2>
+                                <ul class="navbar__footer">
+                                    <li><a href="#.">About Us</a></li>
+                                    <li><a href="#.">Stories</a></li>
+                                    <li><a href="#.">Contact</a></li>
+                                    <li><a href="#.">Terms & Conditions</a></li>
+                                    <li><a href="#."></a>Privacy Policy</li>
+                                </ul>
+                            </div>
+                            <div class="contact_footer">
+                                <div class="contact_media">
+                                    <h2 class="title_h6">Connect</h2>
+                                    <ul>
+                                        <li><a href="#.">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_300_110)">
+                                                <path d="M13.691 10.763L14.173 7.622H11.155V5.584C11.1336 5.34918 11.1653 5.11256 11.2478 4.89167C11.3303 4.67079 11.4615 4.47131 11.6316 4.30802C11.8017 4.14474 12.0064 4.02183 12.2305 3.94843C12.4545 3.87503 12.6923 3.85301 12.926 3.884H14.296V1.212C13.4916 1.08213 12.6788 1.01128 11.864 1C9.382 1 7.764 2.5 7.764 5.228V7.622H5V10.763H7.76V18.357H11.16V10.763H13.691Z" fill="#FEFEF1"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_300_110">
+                                                <rect width="9.296" height="17.357" fill="white" transform="translate(5 1)"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>                                                
+                                            </a></li>
+                                        <li><a href="#.">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.679 8.43799V11.414H14.601C14.3746 12.5289 13.7504 13.5234 12.8447 14.212C11.9391 14.9005 10.8139 15.236 9.679 15.156C8.24847 15.1225 6.8878 14.5307 5.8879 13.5071C4.88799 12.4836 4.3282 11.1094 4.3282 9.67849C4.3282 8.24757 4.88799 6.87343 5.8879 5.84985C6.8878 4.82627 8.24847 4.23447 9.679 4.20099C10.9636 4.17415 12.2071 4.6545 13.14 5.53799L15.493 3.26899C13.9224 1.78753 11.8379 0.974 9.679 0.999994C8.53148 0.987676 7.39292 1.20305 6.32919 1.63367C5.26546 2.06428 4.29769 2.70157 3.48189 3.50867C2.66608 4.31576 2.01843 5.27663 1.57643 6.33568C1.13443 7.39472 0.906839 8.53091 0.906839 9.67849C0.906839 10.8261 1.13443 11.9623 1.57643 13.0213C2.01843 14.0804 2.66608 15.0412 3.48189 15.8483C4.29769 16.6554 5.26546 17.2927 6.32919 17.7233C7.39292 18.1539 8.53148 18.3693 9.679 18.357C14.688 18.357 18.01 14.836 18.01 9.87699C18.0083 9.39448 17.9624 8.91314 17.873 8.43899L9.679 8.43799Z" fill="#FEFEF1"/>
+                                            </svg>                                                
+                                            </a></li>
+                                        <li><a href="#.">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.67975 5.22675C8.79962 5.22675 7.93926 5.48774 7.20746 5.97671C6.47566 6.46568 5.9053 7.16068 5.56849 7.97381C5.23168 8.78694 5.14355 9.68169 5.31526 10.5449C5.48696 11.4081 5.91078 12.201 6.53312 12.8234C7.15547 13.4457 7.94838 13.8695 8.8116 14.0412C9.67481 14.2129 10.5696 14.1248 11.3827 13.788C12.1958 13.4512 12.8908 12.8808 13.3798 12.149C13.8688 11.4172 14.1298 10.5569 14.1298 9.67675C14.1307 9.09211 14.0162 8.51303 13.7929 7.97272C13.5696 7.4324 13.2418 6.94147 12.8284 6.52807C12.415 6.11466 11.9241 5.78692 11.3838 5.56361C10.8435 5.3403 10.2644 5.22583 9.67975 5.22675ZM9.67975 12.5697C9.10757 12.5697 8.54824 12.4001 8.07249 12.0822C7.59673 11.7643 7.22593 11.3125 7.00697 10.7839C6.788 10.2552 6.73071 9.67354 6.84234 9.11235C6.95397 8.55117 7.2295 8.03568 7.63409 7.63109C8.03868 7.2265 8.55417 6.95097 9.11535 6.83934C9.67654 6.72771 10.2582 6.785 10.7869 7.00397C11.3155 7.22293 11.7673 7.59373 12.0852 8.06948C12.4031 8.54524 12.5728 9.10457 12.5728 9.67675C12.5709 10.4435 12.2655 11.1782 11.7234 11.7204C11.1812 12.2625 10.4465 12.5679 9.67975 12.5697ZM15.3498 5.04475C15.3498 5.25005 15.2889 5.45073 15.1748 5.62143C15.0608 5.79213 14.8986 5.92517 14.709 6.00374C14.5193 6.0823 14.3106 6.10286 14.1092 6.06281C13.9079 6.02275 13.7229 5.92389 13.5778 5.77873C13.4326 5.63356 13.3337 5.44861 13.2937 5.24725C13.2536 5.0459 13.2742 4.83719 13.3528 4.64752C13.4313 4.45785 13.5644 4.29574 13.7351 4.18168C13.9058 4.06763 14.1065 4.00675 14.3118 4.00675C14.4481 4.00649 14.5832 4.03316 14.7093 4.08523C14.8353 4.1373 14.9499 4.21375 15.0463 4.31019C15.1428 4.40663 15.2192 4.52116 15.2713 4.64721C15.3233 4.77327 15.35 4.90836 15.3498 5.04475ZM18.2968 6.09775C18.3259 4.74859 17.823 3.44213 16.8968 2.46075C15.9135 1.53753 14.6083 1.03513 13.2598 1.06075C11.8268 0.97975 7.53175 0.97975 6.09875 1.06075C4.74973 1.03412 3.44389 1.53664 2.46075 2.46075C1.53596 3.44307 1.03331 4.74889 1.06075 6.09775C0.97975 7.53075 0.97975 11.8257 1.06075 13.2587C1.03159 14.6079 1.53448 15.9144 2.46075 16.8958C3.44445 17.8183 4.74934 18.3206 6.09775 18.2957C7.53075 18.3767 11.8257 18.3767 13.2587 18.2957C14.6079 18.3249 15.9144 17.822 16.8958 16.8958C17.819 15.9125 18.3214 14.6073 18.2957 13.2587C18.3767 11.8257 18.3767 7.53475 18.2957 6.10175L18.2968 6.09775ZM16.4458 14.7927C16.2985 15.1662 16.076 15.5053 15.7922 15.7892C15.5083 16.073 15.1692 16.2955 14.7958 16.4427C13.6528 16.8957 10.9418 16.7917 9.67975 16.7917C8.41775 16.7917 5.70175 16.8917 4.56375 16.4427C4.19034 16.2955 3.85118 16.073 3.56734 15.7892C3.2835 15.5053 3.06104 15.1662 2.91375 14.7927C2.46075 13.6497 2.56475 10.9388 2.56475 9.67675C2.56475 8.41475 2.46475 5.69875 2.91375 4.56075C3.06104 4.18734 3.2835 3.84818 3.56734 3.56434C3.85118 3.2805 4.19034 3.05804 4.56375 2.91075C5.70275 2.46075 8.41675 2.56075 9.67975 2.56075C10.9428 2.56075 13.6578 2.46075 14.7958 2.90975C15.1692 3.05704 15.5083 3.2795 15.7922 3.56334C16.076 3.84718 16.2985 4.18634 16.4458 4.55975C16.8988 5.70275 16.7948 8.41375 16.7948 9.67575C16.7948 10.9377 16.9028 13.6537 16.4458 14.7927Z" fill="#FEFEF1"/>
+                                                </svg>                                                
+                                            </a></li>
+                                        <li><a href="#.">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.00082 3.0181C0.992877 2.74799 1.04264 2.47929 1.1468 2.22993C1.25096 1.98058 1.4071 1.75631 1.60482 1.5721C2.03438 1.18162 2.60086 0.976732 3.18082 1.0021C3.74567 0.97859 4.29673 1.18038 4.71282 1.5631C4.91302 1.75831 5.0699 1.99346 5.17328 2.25326C5.27665 2.51307 5.32419 2.79172 5.31282 3.0711C5.31892 3.33262 5.2698 3.59248 5.16865 3.83372C5.0675 4.07495 4.91661 4.29214 4.72582 4.4711C4.51237 4.66754 4.26218 4.81983 3.98965 4.9192C3.71711 5.01856 3.42762 5.06305 3.13782 5.0501H3.12482C2.84301 5.06208 2.56167 5.01716 2.2976 4.91803C2.03353 4.81889 1.79213 4.66757 1.58782 4.4731C1.39495 4.28416 1.24323 4.05736 1.14221 3.80697C1.0412 3.55658 0.993057 3.288 1.00082 3.0181ZM1.22482 18.3581V6.6471H5.05782V18.3591L1.22482 18.3581ZM7.18182 18.3581H11.0148V11.8191C10.9908 11.447 11.0576 11.0746 11.2095 10.734C11.3614 10.3934 11.5939 10.0949 11.8868 9.8641C12.235 9.58247 12.6733 9.43615 13.1208 9.4521C14.4102 9.4521 15.0548 10.3344 15.0548 12.0991V18.3581H18.8878V11.6441C18.9899 10.2276 18.5595 8.82392 17.6808 7.7081C17.2782 7.2638 16.783 6.91339 16.23 6.68166C15.677 6.44993 15.0799 6.34254 14.4808 6.3671C13.781 6.3502 13.0896 6.52197 12.479 6.86436C11.8685 7.20676 11.3613 7.70718 11.0108 8.3131V8.3481H10.9978L11.0148 8.3131V6.6471H7.18082C7.20415 7.0211 7.21582 8.1841 7.21582 10.1361C7.21582 12.0881 7.20415 14.8291 7.18082 18.3591L7.18182 18.3581Z" fill="#FEFEF1"/>
+                                            </svg>                                                
+                                        </a></li>
+                                    </ul>
+                                </div>
+                                <div class="shipping_txt_footer sixteen_p">
+                                    <p>FREE UK Shipping</br> on orders over <span class="text_yellow">£40</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom bg_gray">
+                <div class="container">
+                    <div class="footer_bottom_row">
+                        <div class="footer_card_icon">
+                            <img src="images/card_img.png" alt="">
+                        </div>
+                        <div class="footer_copyright">
+                            <p>©2024 Lilybee. Design And Development By Adeo Group</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

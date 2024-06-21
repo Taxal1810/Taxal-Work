@@ -1,0 +1,917 @@
+@media screen and (max-width: 1440px) {
+    .story_main {
+        overflow: hidden;
+    }
+
+    .story_box:last-child {
+        padding-bottom: 80px;
+    }
+
+    .story_box:first-child {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .banner_main {
+        gap: 25px;
+        padding: 100px 0px;
+    }
+
+    a.btn {
+        padding: 12px 19px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .header.sticky .header_logo {
+        width: 70%;
+    }
+
+    .cmn_padding {
+        padding: 60px 0px;
+    }
+
+    .welcome_main h3 {
+        padding-bottom: 25px;
+    }
+
+    .nineteen_p p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .services_card {
+        width: 31.2%;
+    }
+
+    .choose_title {
+        padding-bottom: 60px;
+    }
+
+    .choose_box_right {
+        width: 85%;
+    }
+
+    .choose_content {
+        gap: 25px;
+    }
+
+    .services_row {
+        gap: 25px;
+    }
+
+    .services_title {
+        padding-bottom: 40px;
+    }
+
+    .cmn_banner_title {
+        padding-bottom: 45px;
+    }
+
+    .hamilton_main {
+        gap: 110px;
+        padding: 45px 0px 60px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .story_box {
+        gap: 65px;
+    }
+
+    .story_img:before {
+        max-width: 250px;
+        max-height: 160px;
+        bottom: -17%;
+        left: -20%;
+    }
+
+    .story_content a {
+        padding-top: 30px;
+    }
+
+    .story_img::after {
+        max-width: 165px;
+        max-height: 200px;
+        top: -14%;
+        right: -12%;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 35px;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 35px;
+    }
+
+    .features {
+        gap: 16px 24px;
+    }
+
+    .nails_content {
+        gap: 25px;
+    }
+
+    .nails_text_top {
+        padding-bottom: 15px;
+    }
+
+    .nails_main {
+        gap: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .choose_box_right {
+        width: 80%;
+    }
+
+    .cmn_padding {
+        padding: 50px 0px;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .story_box {
+        gap: 50px;
+
+    }
+
+    .cmn_banner_title {
+        padding-bottom: 40px;
+    }
+
+    .hamilton_main {
+        gap: 90px;
+        padding: 40px 0px 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .story_content a {
+        padding-top: 25px;
+    }
+
+    .story_box:first-child {
+        padding-top: 50px;
+    }
+
+    .story_box:last-child {
+        padding-bottom: 60px;
+    }
+
+    .story_section {
+        padding: 20px 0px !important;
+    }
+
+    .story_img:before {
+        max-width: 230px;
+        max-height: 150px;
+        bottom: -18%;
+        left: -33%;
+    }
+
+    .story_box:nth-child(even) .story_img::before {
+        left: 65%;
+    }
+
+    .features li {
+        width: 46%;
+    }
+
+    .features {
+        gap: 14px 20px;
+    }
+
+    .benifits {
+        row-gap: 14px;
+    }
+
+    .nails_content {
+        gap: 20px;
+    }
+
+    h4 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .nails_text_btm ul li {
+        line-height: 23px;
+    }
+
+    .nails_main {
+        gap: 50px;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .header_logo {
+        width: 75%;
+    }
+
+    .herobanner {
+        margin-top: -55px;
+    }
+
+    .mobileIcon {
+        padding-top: 40px;
+    }
+
+    .header.sticky .mobileIcon {
+        padding-top: 0px;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .banner_main {
+        padding: 80px 0px;
+    }
+
+    a.btn {
+        padding: 10px 17px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .cmn_padding {
+        padding: 40px 0px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .nineteen_p p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .choose_title {
+        padding-bottom: 40px;
+    }
+
+    .choose_row {
+        flex-direction: column;
+    }
+
+    .choose_video {
+        width: 100%;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .choose_box_right {
+        width: 90%;
+    }
+
+    .services_card {
+        width: 47%;
+    }
+
+    .services_title {
+        padding-bottom: 30px;
+    }
+
+    .services_text_top {
+        gap: 50px;
+    }
+
+    .services_text_top a svg {
+        width: 20px;
+    }
+
+    .footer_top {
+        padding-bottom: 28px;
+        margin-bottom: 28px;
+    }
+
+    .story_img::after {
+        max-width: 135px;
+        max-height: 170px;
+        top: -16%;
+        right: -13%;
+    }
+
+    .story_box:nth-child(even) .story_img::before {
+        left: 50%;
+    }
+
+    .story_box {
+        gap: 40px;
+    }
+
+    .story_content a {
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.7px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .hamilton_main {
+        gap: 60px;
+        padding: 40px 0px;
+    }
+
+    .cmn_banner_title {
+        padding-bottom: 30px;
+    }
+
+    .features li {
+        width: 100%;
+    }
+
+    .benifits,
+    .features {
+        row-gap: 10px;
+    }
+
+    .nails_content {
+        gap: 15px;
+    }
+
+    .nails_text_btm ul li::before {
+        width: 15px;
+        height: 12px;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 25px;
+    }
+
+    /************** mobile menu ***************/
+
+    .mobileIcon {
+        display: block;
+    }
+
+    .mobileIcon {
+        height: auto;
+        cursor: pointer;
+        z-index: 99999;
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-width: 30px;
+    }
+
+    .mobileIcon a {
+        width: 55px;
+        height: 7px;
+        border-radius: 0;
+        display: inline-block;
+        background: #000;
+        position: relative;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:before {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        top: -12px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:after {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        bottom: -8px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .menu-open .mobileIcon a {
+        background: rgb(255 255 255 / 0%);
+    }
+
+    .menu-open .mobileIcon a:before {
+        transform: rotate(45deg);
+        top: -1px;
+        background: #fff
+    }
+
+    .menu-open .mobileIcon a:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: #fff
+    }
+
+    .mobileIcon a:before {
+        width: 25px;
+        height: 3px;
+        border-radius: 3px;
+        background: #000;
+        left: 0;
+        top: -8px;
+    }
+
+    .mobileIcon a,
+    .mobileIcon a:after {
+        width: 25px;
+        height: 3px;
+        border-radius: 3px;
+        background: #000000;
+        left: 0;
+    }
+
+    .right_menu {
+        position: fixed;
+        top: 0;
+        right: auto;
+        left: 0;
+        bottom: 0;
+        z-index: 999;
+        width: 100%;
+        transition: transform 300ms ease, opacity 300ms ease;
+        transform: translate3d(-100%, 0, 0);
+        transition: transform 300ms ease, opacity 300ms ease;
+        padding: 50px 30px 30px;
+        box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        max-width: 100%;
+        border-radius: 0;
+        background: var(--light_green);
+    }
+
+    .menu-open .header_links {
+        flex-direction: column;
+    }
+
+    .menu-open .right_menu {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        backface-visibility: hidden;
+        transition: transform 300ms ease, opacity 300ms ease;
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+    }
+
+    .menu-open {
+        overflow: hidden;
+    }
+
+    .menu-open ul.header_menu {
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 0;
+        width: 100%;
+    }
+
+    .menu-open .right_menu_btn {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .menu-open .header_logo {
+        position: relative;
+        z-index: 9999;
+        justify-content: flex-start;
+    }
+
+    ul.header_menu li {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid rgb(255 255 255 / 30%);
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .menu-open .right_menu ul li a:after {
+        width: 30px;
+    }
+
+    .right_menu {
+        display: none;
+    }
+
+    .right_menu ul.sub_menu {
+        display: none !important;
+        position: unset;
+        width: 100%;
+        background: #290140 !important;
+        opacity: 1;
+        transform: unset;
+        transition: unset;
+        margin-top: 20px;
+        padding: 0 0 0 0;
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+
+    .right_menu ul.sub_menu.submenu-open {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    .menu-open .header_links ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-open .header_links a:after {
+        background: var(--white);
+        width: 0 !important;
+    }
+
+    .menu-open .header_links a:hover:after {
+        width: 100% !important;
+    }
+
+    .menu-open .header_links li a {
+        color: var(--white);
+    }
+
+    .menu-open a.btn {
+        background: var(--white);
+        color: var(--light_green);
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .choose_video iframe {
+        min-height: 350px;
+        height: auto;
+    }
+
+    .choose_title {
+        padding-bottom: 30px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .choose_box_right {
+        width: 88%;
+    }
+
+    .footer_top {
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+    }
+
+    .footer_btm {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .welcome_main h3 {
+        padding-bottom: 20px;
+    }
+
+    .hamilton_main {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .hamilton_left {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .story_img {
+        width: 50%;
+    }
+
+    .story_box:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .story_img:before {
+        max-width: 150px;
+        max-height: 150px;
+        bottom: -29%;
+        left: -33%;
+    }
+
+    .story_img::after {
+        top: -15%;
+        right: -14%;
+    }
+
+    .story_box {
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .story_box:last-child {
+        padding-bottom: 20px;
+    }
+
+    .story_box:nth-child(even) .story_img::before {
+        left: 78%;
+    }
+
+    .nails_box {
+        flex-direction: column-reverse;
+    }
+
+    .nails_box:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .nails_box_img {
+        width: 60%;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .banner_main {
+        padding: 60px 0px;
+    }
+
+    .header.sticky .header_logo {
+        width: 50%;
+    }
+
+    .mobileIcon {
+        padding-top: 34px;
+    }
+
+    .herobanner {
+        margin-top: -63px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .welcome_main h3 {
+        padding-bottom: 15px;
+    }
+
+    .nineteen_p p {
+        line-height: 23px;
+    }
+
+    .choose_title {
+        padding-bottom: 20px;
+    }
+
+    .choose_row {
+        gap: 20px;
+    }
+
+    .choose_box_right {
+        width: 85%;
+    }
+
+    .services_title {
+        padding-bottom: 20px;
+    }
+
+    .services_card {
+        width: 100%;
+    }
+
+    p {
+        line-height: 25px;
+    }
+
+    .footer_btm p {
+        font-size: 14px;
+    }
+
+    .cmn_banner_title {
+        padding-bottom: 20px;
+    }
+
+    .hamilton_main {
+        padding: 25px 0px;
+        gap: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .story_content h3 {
+        padding-bottom: 15px;
+    }
+
+    .story_content a {
+        font-size: 16px;
+        letter-spacing: 0;
+        padding-top: 20px;
+    }
+
+    .story_img::after {
+        top: -20%;
+        right: -19%;
+    }
+
+    .story_img:before {
+        bottom: -37%;
+        left: -42%;
+    }
+
+    .story_box:nth-child(even) .story_img::after {
+        left: -18%;
+    }
+
+    .story_box:nth-child(even) .story_img::before {
+        left: 73%;
+    }
+
+    .story_box:last-child {
+        padding-bottom: 0px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    p {
+        line-height: 23px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .banner_main {
+        padding: 50px 0px;
+    }
+
+    .header_logo {
+        width: 60%;
+    }
+
+    .cmn_padding {
+        padding: 30px 0px;
+    }
+
+    .choose_box_right {
+        width: 76%;
+    }
+
+    .choose_box {
+        gap: 15px;
+    }
+
+    .footer_links li {
+        width: 45%;
+    }
+
+    .footer_links {
+        gap: 15px;
+    }
+
+    .choose_video iframe {
+        min-height: 250px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .story_box {
+        padding-bottom: 60px;
+        gap: 30px;
+    }
+
+    .benifits,
+    .features {
+        gap: 5px;
+    }
+
+    .nails_box {
+        gap: 20px;
+    }
+
+    .nails_content {
+        gap: 10px;
+    }
+
+    .services_banner .cmn_banner_title h1 {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .story_img:before {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .story_img::after {
+        max-height: 130px;
+        max-width: 100px;
+    }
+
+    .story_box:first-child {
+        padding-top: 35px;
+    }
+}

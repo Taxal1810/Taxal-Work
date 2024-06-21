@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title_h2 {
+    color: #000;
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title {
+    color: #000;
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.filters_main {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+}
+
+.filters_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filters_radio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filters_search input {
+    max-width: 200px;
+}
+
+.filters_radio label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #000;
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.filters_btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filters_btn button {
+    width: 100%;
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    background: #051433;
+    color: #fff;
+    font-size: 18px;
+}
+
+.filters_artist {
+    padding-bottom: 30px;
+}
+
+
+.contact_bottom_text_info:first-child p {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    /* 36px */
+}

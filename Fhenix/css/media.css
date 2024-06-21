@@ -1,0 +1,319 @@
+@media screen and (max-width: 1500px) {
+
+
+    .end_otr .container {
+        padding-right: 100px;
+    }
+
+    .end_otr_right {
+        width: 44%;
+        margin-top: -125px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+
+    .extends_content_title h1 {
+        font-size: 120px;
+    }
+
+    .empower_content {
+        width: 42%;
+    }
+
+    .end_otr .container {
+        padding-right: 75px;
+    }
+
+    .end_otr_right {
+        width: 46%;
+        margin-top: -120px;
+    }
+
+    .end_otr_text h2 {
+        font-size: 80px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+
+    .end_otr_text h2 {
+        font-size: 70px;
+    }
+
+    .end_otr_right_title {
+        padding-bottom: 100px;
+    }
+
+    .end_section label {
+        font-size: 45px;
+    }
+
+    .end_section .form_btn input {
+        padding: 12px 27px;
+    }
+
+    .end_section input::placeholder {
+        font-size: 14px;
+    }
+
+    .end_section .form_btn a {
+        font-size: 16px;
+    }
+
+    .dawn_row {
+        padding: 30px 80px;
+    }
+
+    .dawn_row_title h3 {
+        font-size: 28px;
+    }
+
+    .dawn_row_title p {
+        font-size: 15px;
+    }
+
+    .dawn_row .grail_row_content_btn a {
+        font-size: 13px;
+    }
+
+    .grail_row_img::after {
+        max-width: 95px;
+        max-height: 110px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+    .extends_content_title h1 {
+        font-size: 90px;
+    }
+
+    .extends_section {
+        padding: 75px 0px 95px;
+    }
+
+    .empower_content_left h1 {
+        font-size: 100px;
+    }
+
+    .empower_content_right h3 {
+        font-size: 25px;
+        padding-bottom: 15px !important;
+    }
+
+    .empower_content_right p {
+        padding-bottom: 5px;
+        line-height: 145%;
+    }
+
+    .grail_row_content_text h2 {
+        font-size: 44px;
+    }
+
+    .grail_row_content_text p {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+    .grail_row_content_btn a {
+        font-size: 17px;
+    }
+
+    .dawn_row {
+        padding: 30px 55px;
+        gap: 75px;
+    }
+
+    .dawn_row .grail_row_content_btn a {
+        padding: 10px 18px;
+    }
+
+    .devloper_title h2 {
+        font-size: 45px;
+    }
+
+    .devloper_text p {
+        font-size: 15px;
+    }
+
+    .end_section label {
+        font-size: 40px;
+    }
+
+    .end_section .form_btn a {
+        font-size: 13px;
+    }
+
+    .end_otr_main {
+        gap: 60px;
+    }
+
+    .end_otr_text h2 {
+        font-size: 60px;
+    }
+
+    .end_otr_text p {
+        font-size: 14px;
+    }
+
+    .end_otr_right_title {
+        padding-bottom: 115px;
+    }
+
+    .end_otr_right {
+        margin-top: -103px;
+    }
+
+    .news_section {
+        padding: 50px 0px 0px;
+    }
+
+    .footer_left .form_btn a {
+        font-size: 14px;
+    }
+
+    .footer_left .form_btn input {
+        padding: 14px 25px;
+    }
+
+    .footer_left .form_btn input::placeholder {
+        font-size: 17px;
+    }
+
+    .empower_title {
+        padding-bottom: 120px;
+    }
+
+    .extends_content {
+        padding-bottom: 120px;
+    }
+
+    .empower_section {
+        padding-bottom: 100px;
+    }
+
+    .grail_section {
+        padding: 50px 0px 60px;
+    }
+
+    .devloper_section {
+        padding-top: 100px;
+    }
+
+    .dawn_row_left {
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding-top: 40px;
+    }
+
+    .header_links ul {
+        gap: 50px;
+    }
+
+    .header_links ul li a {
+        font-size: 15px;
+    }
+
+    .extends_content_title h1 {
+        font-size: 70px;
+    }
+
+    .extends_content_title {
+        padding-bottom: 50px;
+    }
+
+    .extends_content_text p {
+        font-size: 17px;
+    }
+
+    .extends_content_btn a {
+        font-size: 17px;
+    }
+
+    .extends_content {
+        padding-bottom: 100px;
+    }
+
+    .empower_title h2 {
+        font-size: 45px;
+    }
+
+    .empower_title p {
+        font-size: 17px;
+    }
+
+    .empower_title {
+        padding-bottom: 100px;
+    }
+
+    .empower_content {
+        width: 40%;
+    }
+
+    .empower_otr {
+        gap: 75px 110px;
+    }
+
+    .empower_content_right h3 {
+        font-size: 22px;
+        padding-bottom: 10px !important;
+    }
+
+    .empower_content_right p {
+        line-height: 120%;
+    }
+
+    .empower_content {
+        gap: 15px;
+    }
+
+    .grail_row_content_text h2 {
+        font-size: 38px;
+    }
+
+    .grail_row_content_btn a {
+        font-size: 13px;
+        padding: 12px 29px;
+    }
+
+    .grail_section {
+        padding: 40px 0px;
+    }
+
+    .dawn_title h2 {
+        font-size: 40px;
+    }
+
+    .dawn_title p {
+        font-size: 16px;
+    }
+
+    .dawn_title {
+        padding-bottom: 100px;
+    }
+
+    .dawn_section {
+        padding-top: 130px;
+    }
+
+    .devloper_section {
+        padding-top: 50px;
+    }
+}
