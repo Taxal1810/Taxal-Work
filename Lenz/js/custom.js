@@ -66,4 +66,28 @@ $(document).ready(function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = document.querySelectorAll('.six_otr');
+
+    sections.forEach(section => {
+        const parallaxImage = section.querySelector('.bg_img img');
+
+        function updateParallax() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const sectionOffsetTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const windowHeight = window.innerHeight;
+
+            // Check if the section is in the viewport
+            if (scrollTop + windowHeight > sectionOffsetTop && scrollTop < sectionOffsetTop + sectionHeight) {
+                const offset = (scrollTop - sectionOffsetTop) * 0.5; // Adjust this value for different parallax effects
+                parallaxImage.style.transform = `translateY(${offset}px)`;
+            }
+        }
+
+        window.addEventListener('scroll', updateParallax);
+        window.addEventListener('resize', updateParallax);
+        updateParallax();
+    });
+});
 
